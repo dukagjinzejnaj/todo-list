@@ -16,7 +16,7 @@
                 <form @submit.prevent="addToDo">
                     <div class="input-group mb-3">
                         <input type="text" class="form-control form-control-sm" v-model="newToDo" placeholder="Name" required>
-                        <input type="submit" class="btn btn-success" value="Add to list" :disabled="newToDo == 0" />
+                        <input type="submit" class="btn btn-success" value="Create" :disabled="newToDo == 0" />
                     </div>  
                 </form>
                 <h5 class="card-title">Your tasks ({{ ToDos.length }})</h5>
