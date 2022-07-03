@@ -1,0 +1,48 @@
+/*Container*/
+body {
+    background-color: #3D3D3D;
+}
+
+.container {
+    padding: 15vh 20px 15vh 20px;
+}
+
+/*Checkbox*/
+.form-check-input:focus {
+    box-shadow: 0 0 0 0rem #198754;
+}
+
+.form-check-input, .form-check-input:checked, .form-check-input:focus, .form-control:focus {
+    border-color: #198754;
+    border: 2px solid #198754;
+}
+
+.form-check-input {
+    transition: 0.4s;
+}
+
+.form-check-input:checked {
+    transition: 0.4s;
+    border-radius: 50%;
+    background-color: #198754;
+}
+
+.input-group-text {
+    background-color: #adb5bd;
+}
+
+/*Tasks*/
+.items {
+    overflow: scroll;
+    max-height: 350px;
+}
+
+.items .form-control {
+    background-color: #ced4da;
+    transition: 0.4s;
+}
+
+.items .form-control:focus {
+    background-color: #fafafa;
+    transition: 0.4s;
+}
