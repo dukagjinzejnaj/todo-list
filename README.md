@@ -12,3 +12,5 @@ This app can do:
 Special about this app:
 - Small validation function
   - It cannot add or save tasks, if you don't fill anything in the form.
+
+Link: https://dukagjinzejnaj.github.io/todo-list/
